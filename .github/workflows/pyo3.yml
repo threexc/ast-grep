@@ -18,6 +18,7 @@ on:
       need_release:
         description: "Select this for publish. If not selected, it will be a dry run (no uploads)."
         type: boolean
+  pull_request:
   push:
     tags:
       - "[0-9]+.*"
