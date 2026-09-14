@@ -9,6 +9,7 @@ on:
   push:
     tags:
       - "[0-9]+.*"
+  pull_request:
   schedule:
     # run pypi every day 9 am
     - cron: '0 9 * * *'
